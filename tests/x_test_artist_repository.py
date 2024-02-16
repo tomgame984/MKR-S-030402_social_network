@@ -1,5 +1,5 @@
-from lib.artist_repository import ArtistRepository
-from lib.artist import Artist
+from lib.x_artist_repository import ArtistRepository
+from lib.x_artist import Artist
 
 """
 When we call ArtistRepository#all

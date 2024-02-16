@@ -1,4 +1,4 @@
-from lib.artist import Artist
+from lib.x_artist import Artist
 
 """
 Artist constructs with an id, name and genre

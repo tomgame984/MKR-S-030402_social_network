@@ -90,11 +90,10 @@ CREATE TABLE accounts (
 
 -- Then the table with the foreign key second.
 CREATE TABLE posts (
-    id: SERIAL PRIMARY KEY,
-    title: VARCHAR(255)
-    content: VARCHAR(255)
-    views: INT
--- The foreign key name is always {other_table_singular}_id
+    id SERIAL PRIMARY KEY,
+    title VARCHAR(255),
+    content VARCHAR(255),
+    views INT,
     account_id INT,
     CONSTRAINT fk_account FOREIGN KEY (account_id)
     references accounts(id)

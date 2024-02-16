@@ -1,4 +1,4 @@
-from lib.artist import Artist
+from lib.x_artist import Artist
 
 class ArtistRepository:
 
